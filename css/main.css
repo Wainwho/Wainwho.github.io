@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    margin-top: -90px;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 60px;
+    margin-left: auto;
+}
+
+
+header nav ul li{
+    padding: 10px;
+    transition: all 200ms ease;
+}
+
+
+header nav ul li a {
+    padding-left: 10px;
+    padding: 10px;
+    transition: all 200ms ease;
+}
+
+header nav ul li:not(.activenav) a:hover {
+    background-color: #FA4A0C;
+    border-radius: 99999px;
+    scale: 1.1;
+    padding: 10px 20px;
+}
+
+header nav ul li:not(.activenav) a:hover {
+    color: #FFF;
+}
+
+.logoimg {
+    padding: 20px;
+    margin-top: -10px;
+    transition: all 200ms ease;
+    filter: drop-shadow(0px 0px 20px #FFF);
+}
+
+.logoimg:hover {
+    scale: 0.9;
+}
+
+.activenav {
+    scale: 1.7;
+}
+.activenav a {
+    color: #FA4A0C;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.download {
+    color: #FFF;
+    background-image: url(../pictures/Rectangle\ 48.png);
+    padding: 120px;
+    background-size: 100%;
+}
+
+.txt1 {
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+.txt2 {
+    margin-bottom: -50px;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+}
+.txt3 {
+    font-size: 65px;
+    margin-bottom: 30px;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.downloadsmalltxt {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.downloadbtn1 {
+    margin-top: 50px;
+    color: #FFF;
+    border-radius: 23px;
+    border: none;
+    background-color: #FA4A0C;
+
+    font-size: medium;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+
+    width: 170px;
+    height: 50px;
+
+    transition: all 200ms ease;
+}
+
+.downloadbtn2 {
+    margin-top: 50px;
+    color: #FFF;
+    border-radius: 23px;
+    background-color: #ffffff00;
+    border-style: groove;
+    border: 1px solid #FFF;
+
+    font-size: medium;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+
+    width: 170px;
+    height: 50px;
+
+    transition: all 200ms ease;
+}
+
+.downloadbtn1:hover {
+    color: #FA4A0C;
+    background-color: #FFF;
+    scale: 1.1;
+}
+
+.downloadbtn2:hover {
+    border: none;
+    color: #FA4A0C;
+    background-color: #FFF;
+    scale: 1.1;
+}
+
+.img1 { 
+    margin-top: -270px;
+    margin-left: 320px;
+}
+
+.img2 {
+    position: relative;
+    top: -150px;
+    left: -150px;
+}
+
+.dovnloadbody {
+    position: relative;
+    top: -50px;
+}
+
+
+
+body {
+    transition: background-color 0.3s ease;
+}
+
+body.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-theme {
+    background-color: #131313;
+    color: #ffffff;
+}
+
+body.dark-theme nav ul li:not(.activenav) a {
+    color: #ffffff;
+}
+
+#BTNSWITHTHEME {
+    border-radius: 99999999px;
+    border: 1px solid #FA4A0C;
+    background-color: #00000000;
+    transition: all 200ms ease;
+    padding: 10px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    font-weight: 900;
+}
+
+body.dark-theme nav ul button {
+    color: #ffffff;
+}
+
+body.dark-theme nav ul #BTNSWITHTHEME:hover {
+    color: white;
+    scale: 1.2;
+    background-color: #12121200;
+    border-radius: 99999999px;
+}
+
+body.light-theme nav ul #BTNSWITHTHEME:hover {
+    color: black;
+    scale: 1.2;
+    background-color: #12121200;
+    border-radius: 99999999px;
+}
+
+.howtxt {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 44px;
+    line-height: 1.2;
+}
+
+.signinimg {
+    margin-top: 0px;
+    margin-left: 150px;
+}
+
+.txt_1 {
+    font-size: 24px;
+    color: #FA4A0C;
+    line-height: 1.2;
+}
+
+.txt_2 {
+    color: #252B42;
+    line-height: 1.4;
+    font-size: 40px;
+}
+
+.txt_3 {
+    width: 500px;
+    font-size: 24px;
+    color: #737373;
+    line-height: 1.6;
+}
+
+.signinbox {
+    margin-top: 250px;
+    float: right;
+    width: 700px;
+}
+
+body.dark-theme .txt_2 {
+    color: #ffffff;
+}
+
+.shopmainimg {
+    float: right;
+    margin-right: 0px;
+    margin-top: -150px;
+}
+
+.Shoping {
+    margin-left: 250px;
+    margin-top: 100px;
+    float: left;
+    width: 560px;
+}
+
+.paymentimg {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.payment {
+    margin-top: -550px;
+    float: right;
+    width: 600px;
+    margin-right: 200px;
+}
+
+.enddownload {
+    position: relative;
+    top: -560px;
+    width: 100%;
+    color: #ffffff;
+    padding-top: 0px;
+    margin: 0 auto;
+    background-image: url(../pictures/siteend.png);
+    opacity: 0.4;
+    background-size: 100%;
+    background-position-y: -600px;
+    padding-bottom: 560px;
+    margin-bottom: -500px;
+}
+
+.end1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.end2 {
+    display: flex;
+    justify-content: center;
+}
+
+.end {
+    background-color: #252B42;
+    padding-top: 560px;
+}
+
+.endtxt {
+    position: relative;
+    top: -500px;
+    color: #FFF;
+    margin-bottom: -350px;
+}
+
+.endbuttons {
+    position: relative;
+    top: -100px;
+    display: flex;
+    justify-content: center;
+}
+
+.siteend {
+    position: relative;
+    top: 100%;
+}
+
+.siteend {
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+.siteend ul {
+    position: relative;
+    top: -60px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin: 0 auto;
+}
+
+.logoend {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.copywrite {
+    float: right;
+    margin-right: 50px;
+    margin-top: -90px;
+}
