@@ -106,6 +106,7 @@ header nav ul a {
 }
 
 .downloadbtn1 {
+    margin-right: 10px;
     margin-top: 50px;
     color: #FFF;
     border-radius: 23px;
@@ -123,6 +124,7 @@ header nav ul a {
 }
 
 .downloadbtn2 {
+    margin-left: 10px;
     margin-top: 50px;
     color: #FFF;
     border-radius: 23px;
@@ -363,4 +365,13 @@ body.dark-theme .txt_2 {
     float: right;
     margin-right: 50px;
     margin-top: -90px;
+}
+
+.mainbody {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.Line {
+    width: 70%;
 }
